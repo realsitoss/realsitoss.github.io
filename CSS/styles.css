@@ -1,0 +1,67 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff4b8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffa500;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.next-button {
+    background-color: #ffda44;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.next-button:hover {
+    background-color: #ffc300;
+}
+
+.hidden {
+    display: none;
+}
+
+.poem-title {
+    font-size: 2em;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+.poem {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.flower-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
